@@ -16,30 +16,63 @@
     {
       "dependencies": {
         "abyss": {},
+        "bearded-theme-vivid-black": {},
         "betelgeuse": {},
         "c0mfy": {},
+        "carbonfox": {},
+        "catppuccin-frappe": {},
+        "catppuccin-latte": {},
+        "catppuccin-macchiato": {},
+        "catppuccin-mocha": {},
         "cold_lime": {},
+        "dawnfox": {},
+        "dayfox": {},
         "dracula": {},
         "duorand": {},
         "duotone": {},
+        "duskfox": {},
+        "everblush": {},
         "everforest": {},
+        "everforest_light": {},
+        "flexoki_dark": {},
+        "flexoki_light": {},
+        "focus": {},
         "github": {},
         "github-dark-dimmed": {},
         "github_dark": {},
+        "gruvbox-material-dark-hard": {},
+        "gruvbox-material-dark-medium": {},
+        "gruvbox-material-dark-soft": {},
+        "gruvbox-material-light-hard": {},
+        "gruvbox-material-light-medium": {},
+        "gruvbox-material-light-soft": {},
         "gruvbox_dark": {},
         "gruvbox_light": {},
+        "hackersden": {},
+        "handmade_hero": {},
         "jb-fleet": {},
         "jellybeans": {},
         "liqube": {},
+        "lite-light": {},
         "mariana": {},
+        "mobilephone": {},
         "moe": {},
         "monodark": {},
         "monokai": {},
+        "monokai-pro": {},
         "monokai-pro-classic": {},
+        "monokai-sublime": {},
+        "monokai-varied": {},
+        "nebula": {},
+        "nightfox": {},
         "nord": {},
+        "nordfox": {},
         "onedark": {},
         "only_dark": {},
+        "oxocarbon-dark": {},
+        "oxocarbon-light": {},
         "plasma": {},
+        "predawn": {},
         "rose-pine": {},
         "rose-pine-dawn": {},
         "rose-pine-moon": {},
@@ -47,9 +80,12 @@
         "solarized_light": {},
         "solarobj": {},
         "synthwave": {},
+        "terafox": {},
         "tokyo-night": {},
         "vscode-dark": {},
         "winter": {},
+        "yaru": {},
+        "yaru_dark": {},
         "zenburn": {}
       },
       "description": "A metapackage containing all publically accessible color themes.",
@@ -72,6 +108,7 @@
         "language_blueprint": {},
         "language_brainfuck": {},
         "language_buzz": {},
+        "language_c3": {},
         "language_c7": {},
         "language_caddyfile": {},
         "language_carbon": {},
@@ -155,6 +192,7 @@
         "language_starlark": {},
         "language_swift": {},
         "language_tal": {},
+        "language_tau": {},
         "language_tcl": {},
         "language_teal": {},
         "language_tex": {},
@@ -172,7 +210,7 @@
       "id": "meta_languages",
       "mod_version": "3",
       "type": "meta",
-      "version": "0.1.21"
+      "version": "0.1.22"
     },
     {
       "description": "Align multiple carets and selections *([clip](https://user-images.githubusercontent.com/2798487/165631951-532f8d24-d596-4dd0-9d21-ff53c71ed32f.mp4))*",
@@ -182,11 +220,19 @@
       "version": "0.1"
     },
     {
+      "description": "AI-assisted coding with provider adapters, project context, guarded tools, and editor-native chat UI.",
+      "id": "assistant",
+      "mod_version": "3.11.0",
+      "name": "Assistant",
+      "remote": "https://github.com/pragtical/assistant:7cf5df444936eaf72d572974b0b8491b75865c92",
+      "version": "0.1.6"
+    },
+    {
       "description": "Automatically inserts closing brackets and quotes. Also allows selected text to be wrapped with brackets or quotes.",
       "id": "autoinsert",
-      "mod_version": "3",
+      "mod_version": "3.1",
       "path": "plugins/autoinsert.lua",
-      "version": "0.2"
+      "version": "0.3"
     },
     {
       "description": "Automatically saves files when they are changed",
@@ -207,7 +253,7 @@
       "id": "autowrap",
       "mod_version": "3",
       "path": "plugins/autowrap.lua",
-      "version": "0.1"
+      "version": "0.2"
     },
     {
       "description": "Theme manager with base16 color schemes for Lite XL.",
@@ -233,9 +279,9 @@
     {
       "description": "Underlines matching pair for bracket under the caret *([screenshot](https://user-images.githubusercontent.com/3920290/80132745-0c863f00-8594-11ea-8875-c455c6fd7eae.png))*",
       "id": "bracketmatch",
-      "mod_version": "3",
+      "mod_version": "3.1",
       "path": "plugins/bracketmatch.lua",
-      "version": "0.2"
+      "version": "0.4"
     },
     {
       "description": "Buffers and not tabs for Lite XL",
@@ -257,7 +303,7 @@
       "id": "centerdoc",
       "mod_version": "3",
       "path": "plugins/centerdoc.lua",
-      "version": "0.2.5"
+      "version": "0.2.8"
     },
     {
       "description": "Hides the treeview at start if no arguments passed to the executable are directories. Compatible with lite.",
@@ -283,9 +329,9 @@
     {
       "description": "Underlays color values (eg. `#ff00ff`, `rgb(255, 0, 255)` or hsl(300, 100%, 50%)) with their resultant color. *([screenshot](https://user-images.githubusercontent.com/3920290/80743752-731bd780-8b15-11ea-97d3-847db927c5dc.png))*",
       "id": "colorpreview",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "path": "plugins/colorpreview.lua",
-      "version": "0.3.2"
+      "version": "0.4.0"
     },
     {
       "description": "A console for running external commands and capturing their output *([gif](https://user-images.githubusercontent.com/3920290/81343656-49325a00-90ad-11ea-8647-ff39d8f1d730.gif))*",
@@ -306,7 +352,7 @@
       "id": "custom_caret",
       "mod_version": "3.1",
       "path": "plugins/custom_caret.lua",
-      "version": "0.4"
+      "version": "0.4.1"
     },
     {
       "description": "Insert date-, time- and date-time-stamps",
@@ -342,6 +388,23 @@
       "id": "fontpreview",
       "mod_version": "3",
       "path": "plugins/fontpreview.lua",
+      "version": "0.1"
+    },
+    {
+      "description": "Freeze the first row of file",
+      "id": "freeze_row",
+      "mod_version": "3.11",
+      "path": "plugins/freeze_row.lua",
+      "version": "0.1.0"
+    },
+    {
+      "description": "Play as frontra against an army of bots at the end of civilization.",
+      "id": "frontra",
+      "mod_version": "3",
+      "path": "games/frontra.lua",
+      "tags": [
+        "game"
+      ],
       "version": "0.1"
     },
     {
@@ -404,10 +467,17 @@
       "version": "0.6"
     },
     {
+      "description": "Quickly insert emoji via text description",
+      "id": "emoji",
+      "mod_version": "3",
+      "path": "plugins/emoji",
+      "version": "1.0.1"
+    },
+    {
       "description": "Make sure the file ends with one blank line.",
       "id": "eofnewline",
       "mod_version": "3",
-      "url": "plugins/eofnewline.lua",
+      "path": "plugins/eofnewline.lua",
       "version": "0.1"
     },
     {
@@ -432,14 +502,6 @@
       "version": "0.2"
     },
     {
-      "description": "🌳 Treesitter support for Pragtical.",
-      "id": "evergreen",
-      "mod_version": "3",
-      "name": "Evergreen.lxl",
-      "remote": "https://github.com/Evergreen-lxl/Evergreen.lxl.git:7856f897c044e86ab93e27a60e9da8f490a47e4e",
-      "version": "0.3.1"
-    },
-    {
       "description": "Runs selected text through shell command and replaces with result",
       "id": "exec",
       "mod_version": "3",
@@ -449,9 +511,9 @@
     {
       "description": "When a selection crosses multiple lines, it is drawn to the end of the screen *([screenshot](https://user-images.githubusercontent.com/2798487/140995616-89a20b55-5917-4df8-8a7c-d7c53732fa8b.png))*",
       "id": "extend_selection_line",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "path": "plugins/extend_selection_line.lua",
-      "version": "0.1"
+      "version": "0.2"
     },
     {
       "description": "Allows to open an external console in current project directory",
@@ -506,15 +568,15 @@
       "description": "Code formatter for various languages",
       "id": "formatter",
       "mod_version": "3",
-      "remote": "https://github.com/pragtical/formatter:28056e06d85684fc3f428996d2c93b3337f38d0c",
-      "version": "0.7.0"
+      "remote": "https://github.com/pragtical/formatter:a57e5e0fa484196747cd9a34368f1071ebaf7261",
+      "version": "0.7.1"
     },
     {
       "description": "Generates Pragtical API reference markdown files for Pragtical's website using LuaLS.",
       "id": "gendocs",
       "mod_version": "3",
       "path": "plugins/gendocs.lua",
-      "version": "0.2.2"
+      "version": "0.2.6"
     },
     {
       "description": "Opens a preview of the current markdown file in a browser window *([screenshot](https://user-images.githubusercontent.com/3920290/82754898-f7394600-9dc7-11ea-8278-2305363ed372.png))* Note: the page content is generated by sending the markdown file to Github's markdown rendering [API](https://docs.github.com/en/rest/markdown?apiVersion=2022-11-28). Requires a [GitHub token](https://docs.github.com/en/rest/markdown/markdown?apiVersion=2022-11-28#render-a-markdown-document-in-raw-mode) being provided",
@@ -522,6 +584,14 @@
       "mod_version": "3",
       "path": "plugins/ghmarkdown.lua",
       "version": "0.3.1"
+    },
+    {
+      "description": "Terminal tabs and drawer for Pragtical, using libghostty-vt through LuaJIT FFI.",
+      "id": "ghostty",
+      "mod_version": "3",
+      "name": "Ghostty Terminal",
+      "remote": "https://github.com/pragtical/ghostty.git:85d0dfdd3094997496bc4265935a95ae7e40482b",
+      "version": "0.2.0"
     },
     {
       "description": "Shows \"git blame\" information of a line *([screenshot](https://raw.githubusercontent.com/juliardi/lite-xl-gitblame/main/screenshot_1.png))*",
@@ -549,7 +619,7 @@
       "id": "gitstatus",
       "mod_version": "3.1",
       "path": "plugins/gitstatus.lua",
-      "version": "0.2"
+      "version": "0.2.1"
     },
     {
       "description": "Auto-formats the current go file, adds the missing imports and the missing return cases",
@@ -562,7 +632,7 @@
       "description": "Official Go builds.",
       "id": "golang",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "type": "library",
       "version": "1.24.5"
     },
@@ -574,10 +644,17 @@
       "version": "1.0"
     },
     {
+      "description": "Draw configurable background colors in the editor gutter.",
+      "id": "guttercolor",
+      "mod_version": "3",
+      "path": "plugins/guttercolor.lua",
+      "version": "0.1"
+    },
+    {
       "description": "Official Haxe builds.",
       "id": "haxe",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "type": "library",
       "version": "4.3.7"
     },
@@ -596,11 +673,18 @@
       "version": "0.1"
     },
     {
+      "description": "Show indentation in rainbow colors to make them more readable",
+      "id": "indent_rainbow",
+      "mod_version": "3.11",
+      "path": "plugins/indent_rainbow.lua",
+      "version": "1.1.0"
+    },
+    {
       "description": "Adds indent guides *([screenshot](https://user-images.githubusercontent.com/3920290/79640716-f9860000-818a-11ea-9c3b-26d10dd0e0c0.png))*",
       "id": "indentguide",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "path": "plugins/indentguide.lua",
-      "version": "0.4.2"
+      "version": "0.5.1"
     },
     {
       "description": "Generates input latency stats by measuring time taken from key press to rendering.",
@@ -613,25 +697,17 @@
       "description": "Production and Early-Access OpenJDK Builds, from Oracle.",
       "id": "jdk",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "type": "library",
       "version": "24.0.2"
     },
     {
-      "description": "rxi JSON library with error handling and other modifications.",
-      "id": "jsonmod",
-      "mod_version": "3",
-      "path": "plugins/jsonmod.lua",
-      "type": "library",
-      "version": "1.0"
-    },
-    {
-      "description": "Simple *key HUD* for Lite XL",
+      "description": "Simple *key HUD* display.",
       "id": "keyhud",
       "mod_version": "3",
-      "remote": "https://codeberg.org/Mandarancio/keyhud:77c95fed9756b0b20a78ca0f61f20b593787bf20",
+      "path": "plugins/keyhud.lua",
       "type": "plugin",
-      "version": "0.2.3"
+      "version": "0.2.4"
     },
     {
       "description": "Exports the keymap to a JSON file.",
@@ -772,6 +848,16 @@
       "version": "0.2"
     },
     {
+      "description": "Syntax for the [C3](https://c3-lang.org/) programming language",
+      "id": "language_c3",
+      "mod_version": "3",
+      "path": "plugins/language_c3.lua",
+      "tags": [
+        "language"
+      ],
+      "version": "0.1"
+    },
+    {
       "description": "Syntax for the modifications to [fe](https://github.com/rxi/fe/) used in [cel7](https://rxi.itch.io/cel7)",
       "id": "language_c7",
       "mod_version": "3",
@@ -789,7 +875,7 @@
       "tags": [
         "language"
       ],
-      "version": "0.3"
+      "version": "0.3.1"
     },
     {
       "description": "Syntax for the [Carbon programming language](https://github.com/carbon-language/carbon-lang).",
@@ -1160,6 +1246,17 @@
         "language"
       ],
       "version": "0.1"
+    },
+    {
+      "checksum": "ca2397a39097df66a8ca38a418b356b2638f95d09536425b51cbd47a76a80fd3",
+      "description": "Syntax for the [Janet](https://janet-lang.org/) programming language",
+      "id": "language_janet",
+      "mod_version": "3",
+      "tags": [
+        "language"
+      ],
+      "url": "https://codeberg.org/imo/lite-xl-language-janet/raw/branch/main/plugins/language_janet.lua",
+      "version": "0.0.1"
     },
     {
       "description": "Syntax for the [Java](https://en.wikipedia.org/wiki/Java_\\(programming_language\\)) programming language",
@@ -1637,6 +1734,16 @@
       "version": "0.1"
     },
     {
+      "description": "Syntax for the [Tau](https://github.com/NicoNex/tau) programming language",
+      "id": "language_tau",
+      "mod_version": "3",
+      "path": "plugins/language_tau.lua",
+      "tags": [
+        "language"
+      ],
+      "version": "0.1"
+    },
+    {
       "description": "Syntax for the [Umka](https://github.com/vtereshkov/umka-lang) programming language.",
       "id": "language_umka",
       "mod_version": "3",
@@ -1795,19 +1902,19 @@
       "description": "Detects and underlines URLs in files, and enables a context menu entry and a hotkey to open them in the default browser.",
       "id": "link_opener",
       "mod_version": "3",
-      "remote": "https://github.com/irisdominguez/pragtical_link-opener_plugin:6b68c43cf10cb44cc657b226ee0d8d22f987bc39",
-      "version": "0.1.3"
+      "remote": "https://github.com/irisdominguez/pragtical_link-opener_plugin:20760da1fd9f677d87497b48e79a7b4b197bd370",
+      "version": "0.1.4"
     },
     {
-      "description": "Advanced linter with ErrorLens-like error reporting. Compatible with linters made for `linter` *([screenshot](https://raw.githubusercontent.com/liquid600pgm/lintplus/master/screenshots/1.png))*",
+      "description": "Advanced linter with ErrorLens-like error reporting. Compatible with linters made for `linter` *([screenshot](https://raw.githubusercontent.com/pragtical/lintplus/master/screenshots/1.png))*",
       "id": "lintplus",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "name": "lint+",
-      "remote": "https://github.com/liquidev/lintplus:eaff3321f569e89aca57e76dc1f684a37aecd254",
+      "remote": "https://github.com/pragtical/lintplus:662e824bf953e8cc31d834fe798efb1a09bfdb68",
       "replaces": [
         "linter"
       ],
-      "version": "0.4"
+      "version": "0.8"
     },
     {
       "description": "Discord rich presence for Lite XL (display file editing in Discord)",
@@ -1826,107 +1933,135 @@
     {
       "description": "Provides code completion (also known as IntelliSense) using the Language Server Protocol",
       "id": "lsp",
-      "mod_version": "3.4.0",
-      "remote": "https://github.com/pragtical/lsp:dedcaf290347adbcc8ae3092dbe70337b8cdcc15",
-      "version": "0.12.8"
+      "mod_version": "3.12.3",
+      "remote": "https://github.com/pragtical/lsp:7e2b72da2a97961f09df049fcb2a9e8871642c97",
+      "version": "0.17.5"
+    },
+    {
+      "description": "Automatic configuration/binary download for LSP completion for Bash with bash-language-server.",
+      "id": "lsp_bash",
+      "mod_version": "3",
+      "remote": "https://github.com/pragtical/lsp-servers.git:8fb287f8680cb2f3b570a9cc12911aff8a62fbce",
+      "version": "5.6.0"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for C/C++ with clangd.",
       "id": "lsp_c",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "20.1.8"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for clojure with clojure-lsp.",
       "id": "lsp_clojure",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "2025.06.13"
+    },
+    {
+      "description": "LSP support for CSS, LESS, and SCSS via vscode-css-languageserver.",
+      "id": "lsp_css",
+      "mod_version": "3",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "1.122.1"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for D with serve_d.",
       "id": "lsp_d",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:975e96322c6b0e343395c56bf66360c3156dad42",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "0.7.6"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Emmet with emmet-language-server.",
       "id": "lsp_emmet",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "2.7.0"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Go with gopls.",
       "id": "lsp_go",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "0.19.1"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Haxe with haxe-language-server.",
       "id": "lsp_haxe",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:aae96e435bf34e890c5945638e7ba05fab4abfe5",
-      "version": "2.34.1"
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "2.34.2"
     },
     {
-      "description": "LSP support for JSON via vscode-json-languageserver with [additional patches](https://github.com/lite-xl/lite-xl-lsp-servers/tree/latest/patches/vscode-json-languageserver) for increased functionality.",
+      "description": "LSP support for HTML via vscode-html-languageserver.",
+      "id": "lsp_html",
+      "mod_version": "3",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "1.122.1"
+    },
+    {
+      "description": "LSP support for JSON via vscode-json-languageserver with [SchemaStore integration](https://github.com/pragtical/lsp-servers/tree/latest/patches/vscode-json-languageserver).",
       "id": "lsp_json",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
-      "version": "1.102.3.0.2"
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "1.122.1"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Lua with lua-language-server (sumneko).",
       "id": "lsp_lua",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
-      "version": "3.15.0"
+      "remote": "https://github.com/pragtical/lsp-servers.git:e1090654b869d9b54d6a8dc529cffdc1ca085a42",
+      "version": "3.18.2"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Java with jdtls.",
       "id": "lsp_java",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "1.49.0"
     },
     {
-      "description": "Automatic configuration/binary download for LSP completion for Python with Pyright.",
+      "description": "LSP support for PHP via Intelephense.",
+      "id": "lsp_php",
+      "mod_version": "3",
+      "remote": "https://github.com/pragtical/lsp-servers.git:2630d42915a08cdf2d3afaf78e2152fe73d7edc2",
+      "version": "1.18.4"
+    },
+    {
+      "description": "Automatic configuration/binary download for LSP completion and linting for Python with Pyright and Ruff.",
       "id": "lsp_python",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
-      "version": "1.1.403"
+      "remote": "https://github.com/pragtical/lsp-servers.git:7849803fa54a2674521ac0dbac4d160f25e6d674",
+      "version": "20260603"
     },
     {
       "description": "Automatic configuration/binary download for LSP linting for Javascript with quick-lint-js.",
       "id": "lsp_quicklintjs",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers:89efc5642cb9abcd9023c8e5ef3dba85b399884e",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "3.2.0"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Rust with rust-analyzer.",
       "id": "lsp_rust",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "20250804"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for TeX with texlab.",
       "id": "lsp_tex",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "version": "5.23.1"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Typescript and Javascript with typescript-language-server.",
       "id": "lsp_typescript",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:a1d66e32f0b4ac1066fcf7376d3c018871988b90",
-      "version": "4.3.4"
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "5.3.0"
     },
     {
       "description": "Adds LSP snippets support to the snippets plugin",
@@ -1939,15 +2074,15 @@
       "description": "LSP support for YAML via yaml-language-server.",
       "id": "lsp_yaml",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
-      "version": "1.18.0"
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "1.23.0"
     },
     {
       "description": "Automatic configuration/binary download for LSP completion for Zig via zls.",
       "id": "lsp_zig",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
-      "version": "0.14.0"
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
+      "version": "0.16.0"
     },
     {
       "description": "Remaps mac modkeys `command/option` to `ctrl/alt`",
@@ -1973,9 +2108,9 @@
     {
       "description": "Shows a minimap on the right-hand side of the docview. Taken from [@andsve](https://github.com/andsve/lite-plugins/tree/minimap-plugin), and improved upon.",
       "id": "minimap",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "path": "plugins/minimap.lua",
-      "version": "0.2.3"
+      "version": "0.3.0"
     },
     {
       "description": "Fully customizable modal editing for Lite XL",
@@ -1989,9 +2124,9 @@
     {
       "description": "Adds a motion-trail to the caret *([gif](https://user-images.githubusercontent.com/3920290/83256814-085ccb00-a1ab-11ea-9e35-e6633cbed1a9.gif))*",
       "id": "motiontrail",
-      "mod_version": "3.1",
+      "mod_version": "3.11",
       "path": "plugins/motiontrail.lua",
-      "version": "0.3"
+      "version": "0.4.2"
     },
     {
       "description": "Allows moving back and forward between document positions, reducing the amount of scrolling",
@@ -1999,14 +2134,6 @@
       "mod_version": "3",
       "path": "plugins/navigate.lua",
       "version": "0.1"
-    },
-    {
-      "description": "Add support for TCP and UDP sockets using SDL_net.",
-      "id": "net",
-      "mod_version": "3",
-      "remote": "https://github.com/jgmdev/lite-xl-net:4ddece50cdc6d00ab09be1896ef0474e89da89b8",
-      "type": "library",
-      "version": "1.1"
     },
     {
       "dependencies": {
@@ -2023,7 +2150,7 @@
       "description": "Official NodeJs builds.",
       "id": "nodejs",
       "mod_version": "3",
-      "remote": "https://github.com/lite-xl/lite-xl-lsp-servers.git:443a076fe5741dbd3a8f774c9b577bbf4c58f4e9",
+      "remote": "https://github.com/pragtical/lsp-servers.git:65656fa9bee94136195756df2acbec7e23176d4d",
       "type": "library",
       "version": "22.18.0"
     },
@@ -2045,6 +2172,13 @@
       "version": "0.1"
     },
     {
+      "description": "VS Code-style occurrences highlight and scrollbar track indicators",
+      "id": "occurrences_highlight",
+      "mod_version": "3",
+      "path": "plugins/occurrences_highlight.lua",
+      "version": "1.0"
+    },
+    {
       "description": "Change the opaqueness/transparency of `pragtical` using shift+alt+mousewheel or a command.",
       "id": "opacity",
       "mod_version": "3",
@@ -2056,7 +2190,7 @@
       "id": "open_ext",
       "mod_version": "3",
       "path": "plugins/open_ext.lua",
-      "version": "0.1.2"
+      "version": "0.2.0"
     },
     {
       "description": "Opens the parent directory of the current file in the file manager",
@@ -2095,32 +2229,46 @@
       "version": "0.2"
     },
     {
+      "description": "Add blurry mask on inactive lines",
+      "id": "privacy_glasses",
+      "mod_version": "3.11",
+      "path": "plugins/privacy_glasses.lua",
+      "version": "1.0.0"
+    },
+    {
       "description": "Adds the ability to profile Pragtical.",
       "id": "profiler",
       "mod_version": "3",
       "path": "plugins/profiler",
-      "version": "0.4"
+      "version": "0.5"
     },
     {
       "description": "Show nesting of parentheses with rainbow colours",
       "id": "rainbowparen",
       "mod_version": "3",
       "path": "plugins/rainbowparen.lua",
-      "version": "0.1.2"
+      "version": "0.2.4"
+    },
+    {
+      "description": "Highlight CSV and TSV files in different rainbow colors to make them more readable",
+      "id": "rainbow_csv",
+      "mod_version": "3",
+      "path": "plugins/rainbow_csv.lua",
+      "version": "0.2.2"
     },
     {
       "description": "Saves recently opened files for easy access from command menu.",
       "id": "recentfiles",
       "mod_version": "3.1",
       "path": "plugins/recentfiles.lua",
-      "version": "0.1"
+      "version": "0.2"
     },
     {
       "description": "Allows for you to write a regex and its replacement in one go, and live preview the results.",
       "id": "regexreplacepreview",
       "mod_version": "3",
       "path": "plugins/regexreplacepreview.lua",
-      "version": "0.2"
+      "version": "0.2.1"
     },
     {
       "description": "Keep a list of recently closed tabs, and restore the tab in order on ctrl+shift+t.",
@@ -2139,10 +2287,10 @@
     {
       "description": "Extensible source control management plugin with git and fossil backends.",
       "id": "scm",
-      "mod_version": "3.1",
+      "mod_version": "3.11",
       "name": "Source Control Management",
-      "remote": "https://github.com/pragtical/scm:21c8b75d15cc2de12233b7bc40bf4719b3a45fcb",
-      "version": "0.6.0"
+      "remote": "https://github.com/pragtical/scm:178890db139954744f6bc699f77ac0e1ecfd0794",
+      "version": "0.8.0"
     },
     {
       "description": "Select a color theme, like VScode, Sublime Text.(plugin saves changes)",
@@ -2154,9 +2302,9 @@
     {
       "description": "Highlights regions of code that match the current selection *([screenshot](https://user-images.githubusercontent.com/3920290/80710883-5f597c80-8ae7-11ea-97f0-76dfacc08439.png))*",
       "id": "selectionhighlight",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "path": "plugins/selectionhighlight.lua",
-      "version": "0.3"
+      "version": "0.4"
     },
     {
       "description": "Displays the current time in the corner of the status view",
@@ -2175,9 +2323,16 @@
     {
       "description": "Smooth caret animation *([gif](https://user-images.githubusercontent.com/20792268/139006049-a0ba6559-88cb-49a7-8077-4822445b4a1f.gif))*",
       "id": "smoothcaret",
-      "mod_version": "3.1",
+      "mod_version": "3.11",
       "path": "plugins/smoothcaret.lua",
-      "version": "0.3"
+      "version": "0.5.1"
+    },
+    {
+      "description": "Play Snake in an editor tab with wrapping or solid walls and persistent high scores.",
+      "id": "snake",
+      "mod_version": "3.8",
+      "path": "games/snake.lua",
+      "version": "0.2"
     },
     {
       "description": "Provides code snippets support",
@@ -2203,24 +2358,24 @@
     {
       "description": "Underlines misspelt words *([screenshot](https://user-images.githubusercontent.com/3920290/79923973-9caa7400-842e-11ea-85d4-7a196a91ca50.png))* *-- note: on Windows a [`words.txt`](https://github.com/dwyl/english-words/blob/master/words.txt) dictionary file must be placed beside the exe*",
       "id": "spellcheck",
-      "mod_version": "3.1",
+      "mod_version": "3.11",
       "path": "plugins/spellcheck.lua",
-      "version": "0.4.2"
+      "version": "0.5.0"
     },
     {
       "description": "Displays the current date and time in the corner of the status view",
       "id": "statusclock",
       "mod_version": "3",
       "path": "plugins/statusclock.lua",
-      "version": "0.1"
+      "version": "0.2"
     },
     {
       "description": "Keep track of the current scope at the top of the view (*[video](https://user-images.githubusercontent.com/2798487/222133911-e467a583-596c-47ab-8e65-eefc7b5c9112.mp4)*)",
       "id": "sticky_scroll",
-      "mod_version": "3",
+      "mod_version": "3.11",
       "name": "Sticky Scroll",
       "path": "plugins/sticky_scroll.lua",
-      "version": "1.0"
+      "version": "2.0"
     },
     {
       "description": "Save files that require root permissions. Needs `pkexec`.",
@@ -2256,13 +2411,13 @@
       "id": "terminal",
       "mod_version": "3",
       "remote": "https://github.com/pragtical/terminal.git:master",
-      "version": "1.066"
+      "version": "1.094"
     },
     {
       "description": "Allows you to play tetris directly in the editor.",
       "id": "tetris",
       "mod_version": "3",
-      "path": "plugins/tetris.lua",
+      "path": "games/tetris.lua",
       "tags": [
         "game"
       ],
@@ -2293,6 +2448,13 @@
       "version": "0.1"
     },
     {
+      "description": "Read books in status bar",
+      "id": "thief_book",
+      "mod_version": "3.1",
+      "path": "plugins/thief_book.lua",
+      "version": "1.0.0"
+    },
+    {
       "description": "Titleizes selected string (`hello world` => `Hello World`)",
       "id": "titleize",
       "mod_version": "3",
@@ -2304,7 +2466,7 @@
       "id": "todotreeview",
       "mod_version": "3.1",
       "path": "plugins/todotreeview.lua",
-      "version": "0.3.2"
+      "version": "0.4.1"
     },
     {
       "description": "Toggles symbols between `snake_case` and `camelCase`",
@@ -2314,12 +2476,12 @@
       "version": "0.1"
     },
     {
-      "description": "Tree-sitter bindings based on `lua-tree-sitter`",
-      "id": "tree_sitter",
-      "name": "Tree-sitter",
-      "remote": "https://github.com/Evergreen-lxl/lite-xl-tree-sitter.git:b5a1445b037cd093536ff6d869f82014ffdf9a45",
-      "type": "library",
-      "version": "0.1.1"
+      "description": "Tree-sitter syntax highlighting through a direct LuaJIT FFI wrapper around the Tree-sitter runtime.",
+      "id": "treesitter",
+      "mod_version": "3",
+      "name": "Treesitter",
+      "remote": "https://github.com/pragtical/treesitter:1aed7fbdf6d6f0ca2013fb21650d9fb9636e5e41",
+      "version": "0.6.2"
     },
     {
       "description": "Extend Pragtical's treeview menu *([screenshot](https://raw.githubusercontent.com/juliardi/pragtical-treeview-extender/main/screenshot.png))*",
@@ -2346,14 +2508,11 @@
       "version": "0.1"
     },
     {
-      "dependencies": {
-        "jsonmod": {}
-      },
       "description": "Automatically checks for updates and notifies you",
       "id": "updatechecker",
-      "mod_version": "3",
+      "mod_version": "3.10",
       "path": "plugins/updatechecker.lua",
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
     {
       "description": "VI(vim?) bindings with a hint of DOOM Emacs, for pragtical",
@@ -2367,7 +2526,7 @@
       "id": "visu",
       "mod_version": "3",
       "path": "plugins/visu.lua",
-      "version": "0.2.6"
+      "version": "0.2.8"
     },
     {
       "description": "Adds in a word count to the statusview.",
@@ -2375,14 +2534,6 @@
       "mod_version": "3",
       "path": "plugins/wordcount.lua",
       "version": "0.1.1"
-    },
-    {
-      "description": "A simple library that provides a web client to fetch, and submit data via HTTP requests.",
-      "id": "www",
-      "mod_version": "3",
-      "remote": "https://github.com/adamharrison/lite-xl-www.git:aecc866c33b0a954fbd41a5de2842bb97f4ac45e",
-      "type": "library",
-      "version": "0.1"
     },
     {
       "description": "`pywal` integration with Lite XL.",
@@ -2464,10 +2615,30 @@
       "mod_version": "3",
       "remote": "https://github.com/lite-xl/lite-xl-ide.git:3bb229a5b7ed7028c40bba831b0dd77b06c3e262",
       "version": "0.1"
+    },
+    {
+      "description": "Touhou Fumo companions for Pragtical, with animated characters, click reactions, crazy spin and editor pets.",
+      "extra": {
+        "author": "schermaiolo",
+        "license": "MIT"
+      },
+      "id": "touhou_fumo_companion",
+      "mod_version": "3",
+      "name": "Touhou Fumo Companion",
+      "path": "editors/pragtical",
+      "remote": "https://github.com/schermaiolo/touhou-fumo-companion.git:516ab2828bc5712aa1a4996bd35d959b893ffe44",
+      "tags": [
+        "touhou",
+        "fumo",
+        "companion",
+        "animation",
+        "fun"
+      ],
+      "version": "1.0.0"
     }
   ],
   "remotes": [
-    "https://github.com/lite-xl/lite-xl-lsp-servers:latest",
+    "https://github.com/pragtical/lsp-servers:latest",
     "https://github.com/lite-xl/lite-xl-ide:latest"
   ]
 }
